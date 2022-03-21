@@ -1,7 +1,7 @@
 class User:	
     def __init__(self, name, email):
-        self.name = "malik"
-        self.email = "malik.a.shakaa@gmail.com"
+        self.name = name 
+        self.email = email
         self.account_balance = 0
 
 
