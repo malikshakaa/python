@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Playground 1</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <style>.main{
+        margin: 0 auto; 
+        width: 50%;
+        text-align: center;
+        
+    }
+    h1{text-align:center;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-weight: bolder;
+        color: rgb(59, 59, 85);}
+    
+    
+    
+    .box1{
+        border: solid black;
+        height: 200px;
+        width:50%;
+        margin: 20px;
+    }
+    section{
+        display: flex;
+    }
+    </style>
+    <main>
+        <h1>Welcome!</h1>
+        <section>
+            {% for x in range(mult): %}
+        <div class="box1" style= " background-color:  {{ change }} "></div>
+       {% endfor %}
+        </section>
+    </main>
+    </div> 
+</body>
+</html>
+
+
